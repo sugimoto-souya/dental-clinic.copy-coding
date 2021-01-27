@@ -1,0 +1,289 @@
+/* 共通 */
+body{
+  margin: 0 auto;
+  padding: 0px 0 0;
+  background: #F6F6F6;
+  color: #515151;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+.container{
+  width: 920px;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+
+/* ヘッダー */
+header{
+  height: 136px;
+  border-top: solid 8px #6CC6C4;
+}
+
+header img{
+  width: 255px;
+  height: 45px;
+  margin: 55px 0 0 0;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-right p:first-of-type{
+  font-size: 10px;
+  margin: 15px 0 20px 4px;
+}
+
+.tel{
+  font-size: 26px;
+  margin-bottom: 12px;
+  background: url(../image/bgTel.png) left center no-repeat;
+  padding-left: 10px;
+  text-align: right;
+}
+
+.reservation{
+  font-size: 10px;
+  border: 1px solid #D6D6D6;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+}
+
+.reservation span{
+  color: #B22B00;
+  margin-left: 5px;
+}
+
+
+/* メイン */
+main{
+  height: 830px;
+}
+
+.top{
+  height: 70px;
+  line-height: 70px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border: solid 1px #6CC6C4;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.top ul li{
+  float: left;
+}
+
+.top ul li a{
+  display: block;
+  width: 183.6px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-right: #71C9C7 solid 1px;
+  border-left: #99E1DF solid 1px;
+  text-shadow: 1px 1px 2px #6CC6C4;
+}
+
+.top ul li a:hover{
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+  text-shadow: 1px 1px 2px #6CC6C4;
+}
+
+.menu{
+  float: left;
+  width: 260px;
+}
+
+.sub1{
+  margin-bottom: 20px;
+  border: 1px solid #6CC6C4;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.sub2{
+  margin-bottom: 20px;
+  border: 1px solid #6CC6C4;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.sub1 h2{
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  color: white;
+  padding: 12px 170px 12px 16px;
+}
+
+.sub2 h2{
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  color: white;
+  padding: 12px 170px 12px 16px;
+}
+
+.sub1 ul{
+  display: block;
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+.sub2 ul{
+  display: block;
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+.sub1 ul li{
+  height: 44px;
+  width: 230px;
+  padding-left: 25px;
+  margin: 0 12px;
+  background: url(https://haniwaman.com/sample/part3/template_08/common/images/bgListIcon01.png) no-repeat 5px center;
+  border-bottom: 1px solid #6CC6C4;
+}
+
+.sub2 ul li{
+  height: 44px;
+  width: 230px;
+  padding-left: 25px;
+  margin: 0 12px;
+  background: url(https://haniwaman.com/sample/part3/template_08/common/images/bgListIcon01.png) no-repeat 5px center;
+  border-bottom: 1px solid #6CC6C4;
+}
+
+
+.sub1 ul li a{
+  font-size: 14px;
+  display: block;
+  color: black;
+  line-height: 44px;
+}
+
+.sub2 ul li a{
+  font-size: 14px;
+  display: block;
+  color: black;
+  line-height: 44px;
+}
+
+.sub1 ul li a:hover{
+  color: #6CC6C4;
+}
+
+.sub2 ul li a:hover{
+  color: #AEC24C;
+}
+
+.introduction{
+  float: right;
+  width: 640px;
+}
+
+.introduction img{
+  width: 640px;
+  height: 300px;
+}
+
+.inner{
+  width: 640px;
+  height: 420px;
+  background: #fff;
+}
+
+.contact{
+  width: 600px;
+  margin: 0 20px;
+}
+
+.title{
+  height: 72px;
+  padding-top: 36px;
+  border-bottom: 3px solid #6CC6C4;
+}
+
+.inner h3{
+  font-size: 16px;
+}
+
+.news{
+  font-size: 13px;
+}
+
+.cnt{
+  height: 60px;
+  border-bottom: 1px #CCCCCC dotted;
+  padding: 10px 0;
+}
+
+.cnt:first-child{
+  margin-top: 20px;
+}
+
+.cnt dt{
+  float: left;
+  line-height: 150%;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.cnt dd{
+  width: 440px;
+  padding-right: 5px;
+  float: right;
+  line-height: 150%;
+}
+
+/* フッター */
+footer{
+  height: 130px;
+}
+.down-nav{
+  height: 32px;
+}
+.down-nav ul{
+  height: 30px;
+  background: #6CC6C4;
+  padding-left: 15px;
+}
+.down-nav ul li{
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 25px 0 20px;
+  background: url(https://haniwaman.com/sample/part3/template_08/common/images/bgFooterIcon.png) left center no-repeat;
+}
+
+.down-nav ul li a{
+  font-size: 13px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+.down-nav ul li a:hover{
+  text-decoration: underline;
+}
+.down-page{
+  font-size: 13px;
+  text-align: right;
+  padding: 12px 0 16px 0;
+}
+
+.down-page span{
+  font-weight: bold;
+}
+
+.last{
+  font-size: 12px;
+  text-align: center;
+  padding: 12px 0 18px 0;
+  border-top: 2px solid #6CC6C4
+}
